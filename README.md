@@ -21,3 +21,15 @@ Most studios produce Drama movies as seen in the frequency table below.
 
 ![download](https://user-images.githubusercontent.com/115534560/200949788-dd93d8ac-753f-4f64-b8e0-bd42486f73d8.png)
 
+There is a positive correlation between the number of votes a movie has and  the domestic gross. Therefore an increase in the number of votes increases the domestic gross as shown in the scatter plot below
+
+![download](https://user-images.githubusercontent.com/115534560/200951242-2234359f-1d96-4daf-a6b9-f80e4f08da09.png)
+
+### Conclusions
+This analysis leads to three recommendations for the head of Microsoft
+
+1) To produce Drama movies. Most movies from the data set are Drama. They are cheap to produce hence most studios prefer Drama to any other Genre. Genres such as Action and Thrillers may be expensive to produce because of their destructive nature.
+
+2) You might consider producing Action, Adventure and Sci-Fi. This genre has high number of votes which is positively correlated to the domestic gross income.
+
+3) To produce Documentaries. Documentaries are also many in the dataset, second from Drama. Due to the nature of Documentaries, their production is relatively cheaper hence Microsoft will not have to spend a lumpsum of money at once on a studio. You can start off with documentaries then gradually grow the studio.
