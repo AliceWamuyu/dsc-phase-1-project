@@ -14,7 +14,7 @@ For this project, I used the imdb.title.basics, imdb.title.ratings and bom.movie
 
 ### Methods
 
-This project uses Exploratory Data Analysis including finding correlation between variable and grouping by genres
+This project uses Exploratory Data Analysis including finding correlation between variables and grouping by genres
 
 ### Results
 Most studios produce Drama movies as seen in the frequency table below.
