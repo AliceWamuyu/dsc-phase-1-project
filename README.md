@@ -1,20 +1,18 @@
 # Phase 1 Project
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
-
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+This project analyzes Microsoft needs of setting up a movie studio. Microsoft sells computing devices, cloud systems and services, software, and other products to consumers and businesses and would like to venture into movie production. Exploratory Data Analysis will generate insights for Microsoft on What movies to produce.
 
 ### Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. I will be exploring what types of films are currently doing the best at the box office and translating my findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
-### The Data
+### Data Understanding
+
+For this project, I used the imdb.title.basics, imdb.title.ratings and bom.movie_gross datasets. This datasets contain information on movie genres, The ratings on each movie, The studios they were created, The number of Votes for each movie, domestic gross, foreign gross and the running minutes of the movies. My target variables are genres, Number of votes, Domestic Gross and the running minutes.
+
+
 
 In the folder `zippedData` are movie datasets from:
 
