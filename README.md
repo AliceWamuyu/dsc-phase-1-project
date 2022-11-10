@@ -1,65 +1,35 @@
 # Phase 1 Project
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
-
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+This project analyzes Microsoft needs of setting up a movie studio. Microsoft sells computing devices, cloud systems and services, software, and other products to consumers and businesses and would like to venture into movie production. Exploratory Data Analysis will generate insights for Microsoft on What movies to produce.
 
 ### Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. I will be exploring what types of films are currently doing the best at the box office and translating my findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
-### The Data
+### Data Understanding
 
-In the folder `zippedData` are movie datasets from:
+For this project, I used the imdb.title.basics, imdb.title.ratings and bom.movie_gross datasets. This datasets contain information on movie genres, The ratings on each movie, The studios they were created, The number of Votes for each movie, domestic gross, foreign gross and the running minutes of the movies. My target variables are genres, Number of votes, Domestic Gross and the running minutes.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+### Methods
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+This project uses Exploratory Data Analysis including finding correlation between variables and grouping by genres
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+### Results
+Most studios produce Drama movies as seen in the frequency table below.
 
-## Deliverables
+![download](https://user-images.githubusercontent.com/115534560/200949788-dd93d8ac-753f-4f64-b8e0-bd42486f73d8.png)
 
-There are three deliverables for this project:
+There is a positive correlation between the number of votes a movie has and  the domestic gross. Therefore an increase in the number of votes increases the domestic gross as shown in the scatter plot below
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+![download](https://user-images.githubusercontent.com/115534560/200951242-2234359f-1d96-4daf-a6b9-f80e4f08da09.png)
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+### Conclusions
+This analysis leads to three recommendations for the head of Microsoft
 
-### Key Points
+1) To produce Drama movies. Most movies from the data set are Drama. They are cheap to produce hence most studios prefer Drama to any other Genre. Genres such as Action and Thrillers may be expensive to produce because of their destructive nature.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+2) You might consider producing Action, Adventure and Sci-Fi. This genre has high number of votes which is positively correlated to the domestic gross income.
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+3) To produce Documentaries. Documentaries are also many in the dataset, second from Drama. Due to the nature of Documentaries, their production is relatively cheaper hence Microsoft will not have to spend a lumpsum of money at once on a studio. You can start off with documentaries then gradually grow the studio.
