@@ -19,11 +19,11 @@ This project uses Exploratory Data Analysis including finding correlation betwee
 ### Results
 Most studios produce Drama movies as seen in the frequency table below.
 
-![download](https://user-images.githubusercontent.com/115534560/200949788-dd93d8ac-753f-4f64-b8e0-bd42486f73d8.png)
+![download](https://user-images.githubusercontent.com/115534560/201157142-5574384f-f81e-4491-b17d-b646320b484d.png)
 
 There is a positive correlation between the number of votes a movie has and  the domestic gross. Therefore an increase in the number of votes increases the domestic gross as shown in the scatter plot below
 
-![download](https://user-images.githubusercontent.com/115534560/200951242-2234359f-1d96-4daf-a6b9-f80e4f08da09.png)
+![download](https://user-images.githubusercontent.com/115534560/201157229-f15cfc84-c5c2-4a42-b92c-0df763ce7ebd.png)
 
 ### Conclusions
 This analysis leads to three recommendations for the head of Microsoft
